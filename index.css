@@ -158,15 +158,17 @@ body{
     border-right: 2px solid grey;
 }
 
-.fixed{
+.fixed {
     display: flex;
     justify-content: space-around;
     background: var(--gray-7, #F4F5F9);
     width: 100%;
     height: auto;
     padding: 50px 50px;
+    gap: 30px;
     
 }
+
 
 .Block{  
   padding: 70px 282px;
@@ -246,6 +248,11 @@ body{
 
 @media screen and (max-width:900px) {
     
+    .fixed{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
     .block2{
         width: 64%;
         height: auto;
