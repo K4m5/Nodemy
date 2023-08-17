@@ -246,8 +246,17 @@ body{
     background: var(--primary-blue-10, #EBF1FF);
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:850px) {
     
+    body{
+        position: relative;
+    }
+
+    .eliment{
+        position: absolute;
+        top: 380px;
+    }
+
     .fixed{
         width: 100%;
         flex-wrap: wrap;
@@ -271,6 +280,11 @@ body{
         border: 3px solid white;
         border-radius: 10px;
     }
+  
+    .Block .trip{
+        font-size: 25px;
+    }
+
     .card {
        display: flex;
        flex-direction: column;
